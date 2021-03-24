@@ -1,0 +1,28 @@
+body{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+    overflow-x: hidden;
+    
+}
+.container{
+    width: 40vw;
+}
+
+.icon{
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+
+@media (min-width: 280px) and (max-width: 450px){
+
+    .container{
+        width: 100vw;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 748px){
+
+    .container{
+        width: 90vw;
+    }
+}
